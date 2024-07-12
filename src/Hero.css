@@ -1,0 +1,39 @@
+.hero-section{
+    width: 1300px;
+    margin-left:  20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #000000;
+}
+
+
+ #med{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 0;
+}
+
+#separa{
+    font-size: 12px;
+    /* margin-top: 0; */
+}
+
+.bottom-left-hero{
+    margin-top: 15px;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.bottom-left-hero h6{
+    margin-bottom: 10px;
+}
+
+#hero-img{
+    border-radius: 20px;
+}
+

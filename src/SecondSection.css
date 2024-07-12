@@ -1,0 +1,11 @@
+.second-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #F3F3F3;
+    padding-top: 54px;
+    padding-bottom: 54px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
