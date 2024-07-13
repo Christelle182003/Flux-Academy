@@ -21,8 +21,7 @@ function Hero() {
         <div className="bottom-left-hero">
           <Action />
           <h6>
-            5,000 people like you have
-            <br /> purchased this product!
+            5,000 people like you have purchased this product!
           </h6>
         </div>
       </div>

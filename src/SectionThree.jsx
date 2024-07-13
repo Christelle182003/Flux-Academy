@@ -9,6 +9,7 @@ function SectionThree(){
         </div>
         <div className="three-section-text">
             <h4>Long headline on two lines to turn your<br/> visitors into users and achieve more</h4>
+            <div className="text-transparent">
             <p>Separated they live in Bookmarks right at the coast of the famous<br/>Semantics, large language ocean</p>
             <ul>
                 <li className="list-three-section">Showcase and embed your work with </li>
@@ -16,6 +17,8 @@ function SectionThree(){
                 <li className="list-three-section">Sell your videos worldwide </li>
                 <li className="list-three-section">Embed your work with  </li>
             </ul>
+            </div>
+            
         </div>
         </div>
     )
