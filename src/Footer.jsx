@@ -9,30 +9,30 @@ function Footer() {
       </div>
       <div className="footer-column">
         <div className="footer-display">
-          <div className="menu-list">
+          <div className="menu-list-footer">
             <div className="first-column">
               <h5>First Column</h5>
-              <ul className="menu">
-                <li className="menu-items">First Page</li>
-                <li className="menu-items">Second Page</li>
-                <li className="menu-items">Third</li>
-                <li className="menu-items">Four</li>
+              <ul className="menu-footer">
+                <li className="menu-footer-items">First Page</li>
+                <li className="menu-footer-items">Second Page</li>
+                <li className="menu-footer-items">Third</li>
+                <li className="menu-footer-items">Four</li>
               </ul>
             </div>
             <div className="second-column">
               <h5>Second Column</h5>
-              <ul className="menu">
-                <li className="menu-items">Fifth Page</li>
-                <li className="menu-items">Sixth Page</li>
-                <li className="menu-items">Eigth</li>
+              <ul className="menu-footer">
+                <li className="menu-footer-items">Fifth Page</li>
+                <li className="menu-footer-items">Sixth Page</li>
+                <li className="menu-footer-items">Eigth</li>
               </ul>
             </div>
             <div className="third-column">
               <h5>Third Column</h5>
-              <ul className="menu">
-                <li className="menu-items">Fifth Page</li>
-                <li className="menu-items">Sixth Page</li>
-                <li className="menu-items">Eigth</li>
+              <ul className="menu-footer">
+                <li className="menu-footer-items">Fifth Page</li>
+                <li className="menu-footer-items">Sixth Page</li>
+                <li className="menu-footer-items">Eigth</li>
               </ul>
             </div>
           </div>

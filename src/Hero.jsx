@@ -12,11 +12,8 @@ function Hero() {
             <br />
             display headline
           </h2>
-          <span id="separa">
-            Separated they live in Bookmarks right at the coast of the
-            <br />
-            famous Semantics, large language{" "}
-          </span>
+          <span id="separated">Separated they live in Bookmarks right at the coast of the
+          <br />famous Semantics,large language</span>
         </div>
         <div className="bottom-left-hero">
           <Action />

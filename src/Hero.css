@@ -10,6 +10,12 @@
     color: #000000;
 }
 
+.menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
 
  #med{
     font-size: 50px;
@@ -17,7 +23,7 @@
     margin: 0;
 }
 
-#separa{
+#separated{
     font-size: 12px;
     /* margin-top: 0; */
 }
@@ -100,16 +106,16 @@
         margin: 0;
         text-align: center;
     }
-    
-    #separa{
-        font-size: 12px;
-        text-align: center;
-        /* margin-top: 0; */
+    #separated{
+        display: flex;
+        text-align: center ;
+        margin-left: 23px;
     }
+    
 
     #hero-img{
         border-radius: 20px;
-        width: 300px;
+        width: 310px;
     }
     
     

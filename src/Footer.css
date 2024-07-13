@@ -18,7 +18,7 @@
     padding-top: 45px;
 }
 
-.menu-list{
+.menu-list-footer{
     display: flex;
     gap: 40px;
 }
@@ -96,7 +96,9 @@
     .four-column{
         /* padding-top: 25px; */
         text-align: center;
+    }
 
-    
+    .menu-footer-items{
+        display: block;
     }
 }

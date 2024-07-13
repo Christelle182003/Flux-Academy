@@ -21,6 +21,10 @@
 
 }
 
+.menu-icon{
+    display: block;
+}
+
 .menu-link{
     color: #000000;
 
@@ -53,4 +57,33 @@
     color: #ffffff;
     background-color: #000000;
     border-radius: 30px;
+}
+
+@media (max-width: 450px){
+    .menu-icon {
+        display: block;
+        margin-top: 10px;
+      }
+    
+      .menu-items {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .header-btn{
+        display: none;
+        flex-direction: column;
+      }
+
+      .menu.open .menu-items {
+        display: flex;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        padding: 10px;
+      }
 }
