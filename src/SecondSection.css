@@ -8,9 +8,40 @@
     padding-right: 100px;
 }
 
-.indicateur{
-    display: block;
+.title-1{
+    display: flex;
+    /* justify-content: center; */
+    /* gap: 15px; */
 }
+
+.title-1 h4{
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+.title-2{
+    display: flex;
+    /* justify-content: center; */
+    /* gap: 15px; */
+}
+
+.title-2 h4{
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+.title-3{
+    display: flex;
+    /* justify-content: center;
+    gap: 15px; */
+}
+
+.title-3 h4{
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+
 
 @media (max-width:1024px){
     .second-section{

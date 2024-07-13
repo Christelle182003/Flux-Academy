@@ -1,4 +1,5 @@
 import Rond from "./Rond";
+import Ronde from "./Ronde";
 import "./SecondSection.css"
 
 let title = "";
@@ -9,23 +10,21 @@ function SecondSection(props) {
     <div className="second-section">
       <div className="grid1">
        <div className="title-1">
-       <div className="indicateur">
-       <Rond/>
-       </div>
+       <Ronde/>
        <h4>{(title = "Feature one")}</h4>
        </div>
         <p>{description}</p>
       </div>
       <div className="grid2">
         <div className="title-2">
-        <Rond />
+       <Ronde/>
         <h4>{(title = "feature two")}</h4>
         </div>
         <p>{description}</p>
       </div>
       <div className="grid3">
         <div className="title-3">
-        <Rond />
+        <Ronde/>
         <h4>{(title = "feature three")}</h4>
         </div>
         <p>{description}</p>

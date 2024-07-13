@@ -41,8 +41,24 @@
 
 }
 
+.input-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  #input-icon{
+    position: absolute;
+    left: 140px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fafafa;  
+  }
+
 #subscribe{
     border-radius: 10px;
+    padding-left: 10px;
     height: 25px;
     border: 0;
     background-color: #414141;
@@ -101,4 +117,12 @@
     .menu-footer-items{
         display: block;
     }
+
+    #input-icon{
+        position: absolute;
+        left: 230px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #fafafa;  
+      }
 }

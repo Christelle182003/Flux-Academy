@@ -1,5 +1,7 @@
 import FooterImg from "./assets/Logo (White) (1).svg";
+import send from "./assets/Icon (2).svg"
 import "./Footer.css";
+
 
 function Footer() {
   return (
@@ -38,7 +40,10 @@ function Footer() {
           </div>
           <div className="four-column">
             <h5>Subscribe</h5>
+            <div className="input-container">
+            <i className="fas fa-paper-plane" id="input-icon"></i> {/* Utilisation de l'icône Send */}
             <input id="subscribe" type="text" placeholder="enter email" />
+            </div>
             <p>
               Join our newsletter to stay up to
               <br />

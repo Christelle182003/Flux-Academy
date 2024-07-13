@@ -9,6 +9,7 @@ import SectionThree from "./SectionThree";
 import FourSection from "./FourSection";
 import FiveSection from "./FiveSection";
 import Footer from "./Footer";
+import Rond from "./Rond";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -23,6 +24,7 @@ function App() {
         <FourSection/>
         <FiveSection/>
         <Footer/>
+        <Rond/>
       </div>
     </>
   );
